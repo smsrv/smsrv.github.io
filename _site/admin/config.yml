@@ -18,5 +18,5 @@ collections:
       file: "site.yml"
       fields:
         - label: "Site 1"
-        name: "site1"
-        widget: "string"
+          name: "site1"
+          widget: "string"
