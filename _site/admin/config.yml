@@ -15,8 +15,7 @@ collections:
     files:
       - label: "Site data"
         name: "sites"
-        folder: '_data/'
-        file: "site.yml"
+        file: "_data/site.yml"
         fields:
           - label: "site 1"
             name: "site1"
