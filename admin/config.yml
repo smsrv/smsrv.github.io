@@ -1,13 +1,12 @@
 # config.yml
 
-
-
-
 backend:
  name: git-gateway
  branch: master # Branch to update (optional; defaults to master)
+
 media_folder: 'assets/uploads'
-media_library: 'assets/uploads'
+media_library:
+  - name: 'media_library'
 collections:
   - name: 'blog'
     label: 'Blog'
