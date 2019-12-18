@@ -1,9 +1,9 @@
-open: "yes"
+open: 'yes'
 site1:
-        about: "this is site one"
-        1date1: "12"
-        1date2: 14
+  1date1: '6'
+  1date2: '30'
+  about: this is site one
 site2:
-        about: "this is site two"
-        2date1: "10"
-        2date2: 16
+  2date1: '10'
+  2date2: 16
+  about: this is site two
