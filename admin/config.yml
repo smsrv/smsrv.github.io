@@ -1,8 +1,10 @@
 # config.yml
 
+
+
+
+
 backend:
- # name: "github"
- # repo: "smsrv/smsrv.github.io"
  name: github
  repo: smsrv/smsrv.github.io
  branch: master # Branch to update (optional; defaults to master)
@@ -13,3 +15,4 @@ backend:
  folder: '_posts/'
  fields:
         - { name: Title }
+ # repo: "smsrv/smsrv.github.io"
