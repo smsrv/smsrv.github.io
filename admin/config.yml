@@ -7,7 +7,7 @@
 backend:
  name: github
  repo: smsrv/smsrv.github.io
- branch: master # Branch to update (optional; defaults to master)
+ branch: master # Branch to update  (optional; defaults to master)
  media_folder: 'assets/uploads'
  collections:
          - name: 'blog'
