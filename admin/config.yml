@@ -1,12 +1,12 @@
 # config.yml
 
  backend:
-   name: test-repo #github
-   repo: smsrv/smsrv.github.io
-   branch: master # Branch to update (optional; defaults to master)
-   media_folder: 'assets/uploads'
-   collections:
-       - name: 'blog'
+         name: test-repo #github
+         repo: smsrv/smsrv.github.io
+         branch: master # Branch to update (optional; defaults to master)
+         media_folder: 'assets/uploads'
+         collections:
+                 - name: 'blog'
          label: 'Blog'
          folder: '_posts/'
          fields:
