@@ -3,16 +3,13 @@
 
 
 
-
 backend:
- name: github
- repo: smsrv/smsrv.github.io
- branch: master # Branch to update  (optional; defaults to master)
+ name: git-gateway
+ branch: master # Branch to update (optional; defaults to master)
  media_folder: 'assets/uploads'
  collections:
-         - name: 'blog'
+ - name: 'blog'
  label: 'Blog'
  folder: '_posts/'
  fields:
-        - { name: Title }
- # repo: "smsrv/smsrv.github.io"
+ - { name: Title }

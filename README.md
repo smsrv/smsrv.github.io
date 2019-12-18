@@ -1,2 +1,0 @@
-# smsrv.github.io
-website
