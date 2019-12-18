@@ -10,8 +10,10 @@ media_library:
  name: 'media_library'
 
 collections:
-  - name: 'blog'
-    label: 'Blog'
-    folder: '_posts/'
+  - name: 'sites'
+    label: 'Sites'
+    file: '_data/site.yml'
     fields:
-     - { name: Title }
+            - label: "Site 1"
+              name: "site1"
+              widget: "string"
