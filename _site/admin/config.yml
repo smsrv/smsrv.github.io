@@ -13,11 +13,11 @@ collections:
   - name: 'sites'
     label: 'Sites'
     files:
-      - label: "Site 1"
-        name: "site1"
+      - label: "Site data"
+        name: "sites"
         folder: '_data/'
         file: "site.yml"
         fields:
-          - label: "Site 1"
+          - label: "site 1"
             name: "site1"
             widget: "string"
