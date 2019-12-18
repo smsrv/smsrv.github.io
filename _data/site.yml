@@ -1,3 +1,4 @@
+open: "yes"
 site1:
         about: "this is site one"
         1date1: "12"
