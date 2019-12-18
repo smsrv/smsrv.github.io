@@ -2,9 +2,9 @@
 
  backend:
    name: github
-     branch: master # Branch to update (optional; defaults to master)
-     media_folder: 'assets/uploads'
-     collections:
+   branch: master # Branch to update (optional; defaults to master)
+   media_folder: 'assets/uploads'
+   collections:
        - name: 'blog'
          label: 'Blog'
          folder: '_posts/'
