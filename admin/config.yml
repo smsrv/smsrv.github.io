@@ -12,9 +12,11 @@ media_library:
 collections:
   - name: 'sites'
     label: 'Sites'
-    folder: '_data/'
-    files: 'site.yml'
-    fields:
-     - label: "Site 1"
-       name: "site1"
-       widget: "string"
+    files:
+      lable: "Site 1"
+      folder: '_data/'
+      file: "site.yml"
+      fields:
+        - label: "Site 1"
+        name: "site1"
+        widget: "string"
