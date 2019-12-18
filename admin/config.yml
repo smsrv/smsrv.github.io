@@ -1,8 +1,8 @@
 # config.yml
 
- backend:
-         name: github
-         repo: smsrv/smsrv.github.io
+backend:
+ name: github
+ repo: smsrv/smsrv.github.io
          
  #         name: github
  #         repo: smsrv/smsrv.github.io
