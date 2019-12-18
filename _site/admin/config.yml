@@ -15,6 +15,6 @@ collections:
     folder: '_data/'
     files: 'site.yml'
     fields:
-            - label: "Site 1"
-              name: "site1"
-              widget: "string"
+     - label: "Site 1"
+       name: "site1"
+       widget: "string"
