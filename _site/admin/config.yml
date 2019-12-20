@@ -29,12 +29,8 @@ collections:
                name: "site one" 
                widget: 'object'
                fields:
-                 - {label: "Name" default: "Site 1", name: "name", widget: "hidden"}
+                 - {label: "Name", default: "Site 1", name: "name", widget: "hidden"}
                  - {label: "description", name: "about", widget: "string"}
-                 - {label: "Earliest Month", name: "date-first-month", widget: "datetime"}
-                 - {label: "Earliest Day", name: "date-first-day", widget: "datetime"}
-                 - {label: "Latest Year", name: "date-first-year", widget: "datetime"}
-                 - {label: "Latest Month", name: "date-last-month", widget: "datetime"}
-                 - {label: "Latest Day", name: "date-last-day", widget: "datetime"}
-                 - {label: "Latest Year", name: "date-last-year", widget: "datetime"}
+                 - {label: "Earliest Date", name: "date-first", widget: "datetime"}
+                 - {label: "Latest Date", name: "date-last", widget: "datetime"}
             
