@@ -1,11 +1,9 @@
 # config.yml
-
 backend:
  name: git-gateway
  branch: master # Branch to update (optional; defaults to master)
 
 media_folder: 'assets/uploads'
-
 media_library:
  name: 'media_library'
 
@@ -19,30 +17,14 @@ collections:
         fields:
           - label: "Open or Not"
             name: "open"
-            widget: "string"
-          - label: "site 1"
-            name: "site1"
-            widget: "object"
+            widget: "boolean"
+          - label: "Sites"
+            name: "lots"
             fields:
-              - label: "about"
-                name: "about"
-                widget: "string"
-              - label: "earliest"
-                name: "1date1"
-                widget: "string"
-              - label: "latest"
-                name: "1date2"
-                widget: "string"
-          - label: "site 2"
-            name: "site2"
-            widget: "object"
-            fields:
-              - label: "about"
-                name: "about"
-                widget: "string"
-              - label: "earliest"
-                name: "2date1"
-                widget: "string"
-              - label: "latest"
-                name: "2date2"
-                widget: "string" 
+              - label: "Site 1"
+                name: "site-one"
+                fields:
+                  - label: "Description"
+                    name: "about"
+                    widget: "string"
+   
