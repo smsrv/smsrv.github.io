@@ -1,7 +1,7 @@
-open: false
+open: true
 lots:
   site one:
-    about: Check out our favorite hookup site!
+    about: Check out our favorite hookup site today!
     date-first: 2019-11-29T17:00:26.240Z
     date-last: 2019-11-26T17:00:00.000Z
   site two:
