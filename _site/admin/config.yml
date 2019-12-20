@@ -10,10 +10,7 @@ media_library:
 collections:
   name: 'sites'
   label: 'Sites'
-  files:
-    - label: "Site data"
-      name: "sites"
-      file: "_data/site.yml"
+  file: "_data/site.yml"
       fields:
         - label: "Open or Not"
           name: "open"
