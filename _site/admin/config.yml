@@ -22,8 +22,8 @@ collections:
  #    fields:
         - {label: 'Open or Not', name: 'open', widget: 'boolean'}
         - {
-           label: "Sites"
-           name: 'lots'
+           label: "Sites",
+           name: 'lots',
            fields:
              - label: "Site 1"
                name: "site one" 
