@@ -3,4 +3,8 @@ lots:
   site one:
     about: Check out our favorite hookup site!
     date-first: 2019-11-29T17:00:26.240Z
-    date-last: 2019-12-30T17:00:00.000Z
+    date-last: 2019-11-26T17:00:00.000Z
+  site two:
+    about: site 2 is not as good
+    date-first: 2019-11-24T17:09:07.692Z
+    date-last: 2019-11-25T17:09:07.729Z
