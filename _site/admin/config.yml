@@ -8,7 +8,7 @@ media_library:
   name: 'media_library'
 
 collections:
-   name: 'sites'
+ - name: 'sites'
    label: 'Sites'
    files:
      - label: "Site data"
