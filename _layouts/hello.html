@@ -107,12 +107,13 @@
 						</div>
 					</div>
 					 -->
+
 		{% for entry in site.data.site.lots %}
-		{% if entry.display ==  true %}
+			{% if entry[1].display ==  true %}
 					<!-- lot Card -->
 					<div class="col-md-12 col-lg-10">
-						<div class="get rounded mb-3 bg-white p-3 mx-0 my-4"	id="site{{entry[1].number}}">	
-							<h1>{{ forloop.index}}. {{entry[1].name}}</h1>
+						<div class="get rounded mb-3 bg-white p-3 mx-0 my-4"	id="site{{forloop.index}}">	
+							<h1>Site {{ forloop.index}}.</h1>
 							<div class="row">
 
 								<img class="image-fluid" src="" alt="image">
@@ -120,20 +121,20 @@
 								<div class="col-lg-4">
 									<h4>Available Dates</h4>
 									<div>{{entry[1].name}} is available from: <br>
-										<b><span id="site{{entry[1].number}}date1">{{entry[1].date-first-month}}/{{entry[1].date-first-day}}/{{entry[1].date-first-year}}</span></b><br>to<br><b><span id="site{{entry[1].number}}date2">{{entry[1].date-last-month}}/{{entry[1].date-last-day}}/{{entry[1].date-last-year}}</span></b>
+										<b><span id="site{{forloop.index}}date1">{{entry[1].date-first | slice: 5, 2}}/{{entry[1].date-first | slice: 8, 2}}/{{entry[1].date-first | slice: 0, 4}}</span></b><br>to<br><b><span id="site{{forloop.index}}date2">{{entry[1].date-last | slice: 5, 2}}/{{entry[1].date-last | slice: 8, 2}}/{{entry[1].date-last | slice: 0, 4}}</span></b>
 									</div>
 								</div>
 
 								<div class="col-lg-4">	
 									<h4>Description</h4>
-									<div> {{entry[1].about}} . This is the description</div>
+									<div> {{entry[1].about}}</div>
 								</div>
 
 							</div>
 						</div>
 					</div>
 					<!-- lot Card -->
-		{% endif %}
+			{% endif %}
 		{% endfor %}
 
 				</div>
