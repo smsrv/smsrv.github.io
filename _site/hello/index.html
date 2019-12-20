@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="Hello" content="">
+
+		<title>Hello</title>
+
+		<!-- Custom fonts for this theme -->
+		<link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Nova+Mono&display=swap" rel="stylesheet">
+
+		<meta charset="UTF-8">
+		<title></title>
+		<link href="/css/freelancer.css" rel="stylesheet" type="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<!--
+		<script src="/collapse.js"></script>
+		-->
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+		<style>
+#nav-brand {
+	font-size: calc(10px + 1vw);
+}
+		</style>
+	</head>
+
+	<body id="page-top" class=" bg-secondary">
+		<!-- Navigation -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white fixed-top py-1" id="mainNav">
+			<div class="container">
+				<a class="navbar-brand js-scroll-trigger text-white my-md-text-small" href="#page-top"><span id="nav-brand">San Marcos Springs RV Park</span></a>
+				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto my-2 my-lg-0">
+						<li class="nav-item">
+							<a class="nav-link js-scroll-trigger text-white" href="/index.html">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link js-scroll-trigger text-white" href="/index.html">Map</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+
+		<section class="page-section bg-warning mb-0">
+			<div class="container-fluid justify-content-center rounded bg-secondary text-white">
+				<form	id="calendarform">
+					<div class="row">
+						<div class="col-sm-12 col-md-4 mx-auto text-center">
+							<h4>Arrival and Departure Dates</h4>
+							<input name="dates" class="nova-mono-text form-control border rounded pl-2 text-center" id="calendar" type="text" placeholder="Select Dates - Arrival and Departure" required="required">
+							<script>$('input[name="dates"]').daterangepicker();</script> 
+						</div>
+						<!--
+				<div class="col-sm-12 col-md-4 mr-auto">
+				<h4>Departure Date</h4>
+				<input name="dates" class="nova-mono-text form-control border rounded pl-2" id="departure" type="text" placeholder="Select" required="required"  data-validation-required-message="Please enter Departure Date." onclick="alert('hello');"> 
+				</div>
+						-->
+					</div>
+					<div class="row">
+						<div class="col-12">
+							<center>
+								<div class="btn-group align-middle">
+									<a class="btn btn-light btn-block btn-lg text-dark m-1 py-1" onclick="searchIt();">Search</a>
+									<a class="btn btn-light btn-block btn-lg text-dark m-1 py-1" onclick="reset();">Reset</a>
+								</div>
+							</center>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="container-fluid">
+				<div class="row justify-content-center">
+					<!-- lot Card 
+					<div class="col-md-12 col-lg-10">
+						<div class="get rounded mb-3 bg-white p-3 mx-0 my-4"	id="site1">	
+							<h1>Site 1</h1>
+							<div class="row">
+
+								<img class="image-fluid" src="" alt="image">
+								<div class="col-lg-4">
+									<h4>Available Dates</h4>
+									<div>Site 1 is available from: <br>
+										<b><span id="site1date1">10/15/2019</span></b><br>to<br><b><span id="site1date2">12/15/2019</span></b>
+									</div>
+								</div>
+
+								<div class="col-lg-4">	
+									<h4>Description</h4>
+									<div> this is the description for site one . This is the description</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					 -->
+		
+					<!-- lot Card -->
+					<div class="col-md-12 col-lg-10">
+						<div class="get rounded mb-3 bg-white p-3 mx-0 my-4"	id="site1">	
+							<h1>Site 1</h1>
+							<div class="row">
+
+								<img class="image-fluid" src="" alt="image">
+
+								<div class="col-lg-4">
+									<h4>Available Dates</h4>
+									<div>Site 1 is available from: <br>
+										<b><span id="site1date1">10/15/2019</span></b><br>to<br><b><span id="site1date2">12/15/2019</span></b>
+									</div>
+								</div>
+
+								<div class="col-lg-4">	
+									<h4>Description</h4>
+									<div> this is the description for site one . This is the description</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<!-- lot Card -->
+		
+					<!-- lot Card -->
+					<div class="col-md-12 col-lg-10">
+						<div class="get rounded mb-3 bg-white p-3 mx-0 my-4"	id="site2">	
+							<h1>Site 2</h1>
+							<div class="row">
+
+								<img class="image-fluid" src="" alt="image">
+
+								<div class="col-lg-4">
+									<h4>Available Dates</h4>
+									<div>Site 2 is available from: <br>
+										<b><span id="site2date1">10/12/2019</span></b><br>to<br><b><span id="site2date2">12/10/2019</span></b>
+									</div>
+								</div>
+
+								<div class="col-lg-4">	
+									<h4>Description</h4>
+									<div> this is the description for site two . This is the description</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<!-- lot Card -->
+		
+					<!-- lot Card -->
+					<div class="col-md-12 col-lg-10">
+						<div class="get rounded mb-3 bg-white p-3 mx-0 my-4"	id="site3">	
+							<h1>Site 3</h1>
+							<div class="row">
+
+								<img class="image-fluid" src="" alt="image">
+
+								<div class="col-lg-4">
+									<h4>Available Dates</h4>
+									<div>Site 3 is available from: <br>
+										<b><span id="site3date1">11/02/2019</span></b><br>to<br><b><span id="site3date2">12/1/2019</span></b>
+									</div>
+								</div>
+
+								<div class="col-lg-4">	
+									<h4>Description</h4>
+									<div> this is the description for site three . This is the description</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<!-- lot Card -->
+		
+					<!-- lot Card -->
+					<div class="col-md-12 col-lg-10">
+						<div class="get rounded mb-3 bg-white p-3 mx-0 my-4"	id="site4">	
+							<h1>Site 4</h1>
+							<div class="row">
+
+								<img class="image-fluid" src="" alt="image">
+
+								<div class="col-lg-4">
+									<h4>Available Dates</h4>
+									<div>Site 4 is available from: <br>
+										<b><span id="site4date1">12/19/2019</span></b><br>to<br><b><span id="site4date2">12/10/2019</span></b>
+									</div>
+								</div>
+
+								<div class="col-lg-4">	
+									<h4>Description</h4>
+									<div> this is the description for site four . This is the description</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<!-- lot Card -->
+		
+					<!-- lot Card -->
+					<div class="col-md-12 col-lg-10">
+						<div class="get rounded mb-3 bg-white p-3 mx-0 my-4"	id="site5">	
+							<h1>Site 5</h1>
+							<div class="row">
+
+								<img class="image-fluid" src="" alt="image">
+
+								<div class="col-lg-4">
+									<h4>Available Dates</h4>
+									<div>Site 5 is available from: <br>
+										<b><span id="site5date1">10/12/2019</span></b><br>to<br><b><span id="site5date2">12/10/2019</span></b>
+									</div>
+								</div>
+
+								<div class="col-lg-4">	
+									<h4>Description</h4>
+									<div> this is the description for site five . This is the description</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<!-- lot Card -->
+		
+					<!-- lot Card -->
+					<div class="col-md-12 col-lg-10">
+						<div class="get rounded mb-3 bg-white p-3 mx-0 my-4"	id="site6">	
+							<h1>Site 6</h1>
+							<div class="row">
+
+								<img class="image-fluid" src="" alt="image">
+
+								<div class="col-lg-4">
+									<h4>Available Dates</h4>
+									<div>Site 6 is available from: <br>
+										<b><span id="site6date1">10/12/2019</span></b><br>to<br><b><span id="site6date2">12/10/2019</span></b>
+									</div>
+								</div>
+
+								<div class="col-lg-4">	
+									<h4>Description</h4>
+									<div> this is the description for site six . This is the description</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<!-- lot Card -->
+		
+					<!-- lot Card -->
+					<div class="col-md-12 col-lg-10">
+						<div class="get rounded mb-3 bg-white p-3 mx-0 my-4"	id="site7">	
+							<h1>Site 7</h1>
+							<div class="row">
+
+								<img class="image-fluid" src="" alt="image">
+
+								<div class="col-lg-4">
+									<h4>Available Dates</h4>
+									<div>Site 7 is available from: <br>
+										<b><span id="site7date1">11/11/2019</span></b><br>to<br><b><span id="site7date2">12/1/2019</span></b>
+									</div>
+								</div>
+
+								<div class="col-lg-4">	
+									<h4>Description</h4>
+									<div> this is the description for site seven . This is the description</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<!-- lot Card -->
+		
+					<!-- lot Card -->
+					<div class="col-md-12 col-lg-10">
+						<div class="get rounded mb-3 bg-white p-3 mx-0 my-4"	id="site8">	
+							<h1>Site 8</h1>
+							<div class="row">
+
+								<img class="image-fluid" src="" alt="image">
+
+								<div class="col-lg-4">
+									<h4>Available Dates</h4>
+									<div>Site 8 is available from: <br>
+										<b><span id="site8date1">12/10/2019</span></b><br>to<br><b><span id="site8date2">12/20/2019</span></b>
+									</div>
+								</div>
+
+								<div class="col-lg-4">	
+									<h4>Description</h4>
+									<div> this is the description for site eight . This is the description</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<!-- lot Card -->
+		
+
+				</div>
+			</div>
+		</section>
+	</body> 
+	<script>
+		//showDates = function() {
+		//just a test;
+		//console.log(document.getElementById('calendar').value);
+		//calendardateMash();	
+		//}
+		calendarDateMash = function() {
+			str = document.getElementById('calendar').value;
+			year1 = str.substring(6, 10);
+			month1 = str.substring(0, 2);
+			day1 = str.substring(3, 5);
+			//console.log(month1 + ' ' + day1 + ' ' + year1);
+			year2 = str.substring(19, 23);
+			month2 = str.substring(13, 15);
+			day2 = str.substring(16, 18);
+			//console.log(month2 + ' ' + day2 + ' ' + year2);
+			date1 = year1 + month1 + day1;
+			date1 = Number(date1);
+			date2 = year2 + month2 + day2;
+			date2 = Number(date2);
+			//console.log(dateMash()[0] + ' and ' + dateMash()[1]);
+			return [date1, date2];
+		}
+
+ifSiteExists = function(x) {
+	if (document.getElementById(x)) {
+		date1 = document.getElementById(x).textContent;
+		return date1;
+	} else {
+		date1 = 'pork';
+		return date1;
+	}
+}
+
+sitesDateMash = function (x) {
+	newDate = x.substring(6, 10) + x.substring(0, 2) + x.substring(3, 5);
+	return newDate;
+}
+searchIt = function() {	
+	var searchDates = calendarDateMash();
+	search1 = searchDates[0];
+	search2 = searchDates[1];
+	for ( var i=1; i < 9; i++) {
+		theNumber = i.toString();
+		date1id = 'site' + theNumber + 'date' + '1';
+		date1 = ifSiteExists(date1id);
+		date1New = sitesDateMash(date1);
+		//console.log('date1id is ' + date1id + ' and date1 is ' + date1 + 'and date1New is ' + date1New);
+
+		date2id = 'site' + theNumber + 'date' + '2';
+		date2 = ifSiteExists(date2id);
+		date2New = sitesDateMash(date2);
+		//console.log('date2id is ' + date2id + ' and date2 is ' + date2 + 'and date2New is ' + date2New);
+
+		if ( search1 >= date1New && date2New >= search2 ) {
+			//console.log(' search1 ' + search1 + '>=' + date1New + ' && ' + date2New + ' >= ' + search2 + ' : site ' + theNumber + ' matched');
+		} else {
+			//console.log(' search1 ' + search1 + '>=' + date1New + ' && ' + date2New + ' >= ' + search2 + ' : site ' + theNumber + ' not matched');
+			nowId = 'site' + theNumber;
+			console.log('nowId is ' + nowId + ' and will be display none');
+			//console.log('nowId is ' + nowId);
+			//document.getElementById(nowId).style.visibility = 'hidden';
+			document.getElementById(nowId).style.display = "none";
+			//doneId = '#' + nowId;
+			//$(doneId).collapse();
+		}
+	}	
+}	
+
+reset = function () {
+	document.querySelector('.get').style.display = "block";
+}
+	</script>
+	<!-- Bootstrap core JavaScript -->
+	<script src="/vendor/jquery/jquery.min.js"></script>
+	<script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+	<!-- Plugin JavaScript -->
+	<script src="/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+	<!-- Custom scripts for this template 	<script src="/js/creative.min.js"></script>
+-->
+
+
+</html>
+

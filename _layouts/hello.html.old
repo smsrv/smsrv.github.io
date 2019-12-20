@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="Hello" content="">
+
+  <title>Hello</title>
+
+  <!-- Custom fonts for this theme -->
+  <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Nova+Mono&display=swap" rel="stylesheet">
+  
+		<meta charset="UTF-8">
+		<title></title>
+		<link href="/css/freelancer.css" rel="stylesheet" type="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<!--
+		<script src="/collapse.js"></script>
+		-->
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+	</head>
+
+	<body id="page-top" class=" bg-dark">
+		<section class="page-section bg-secondary">
+			<div class="container-fluid justify-content-center bg-dark text-white">
+						<form	id="calendarform">
+					<div class="row">
+						<div class="col-sm-12 col-md-4 mx-auto text-center">
+							<h4>Arrival and Departure Dates</h4>
+							<input name="dates" class="nova-mono-text form-control border rounded pl-2 text-center" id="calendar" type="text" placeholder="Select Dates - Arrival and Departure" required="required">
+	<script>$('input[name="dates"]').daterangepicker();</script> 
+						</div>
+						<!--
+						<div class="col-sm-12 col-md-4 mr-auto">
+							<h4>Departure Date</h4>
+							 <input name="dates" class="nova-mono-text form-control border rounded pl-2" id="departure" type="text" placeholder="Select" required="required"  data-validation-required-message="Please enter Departure Date." onclick="alert('hello');"> 
+						</div>
+						-->
+					</div>
+					<div class="row">
+						<div class="col-12">
+							<center>
+							<div class="btn-group align-middle">
+							<a class="btn btn-light btn-block btn-lg text-dark m-1 py-1" onclick="searchIt(10, 16);">Search</a>
+							<a class="btn btn-light btn-block btn-lg text-dark m-1 py-1" onclick="reset(); showDates();">Reset</a>
+									</div>
+							</center>
+						</div>
+						</form>
+					</div>
+					</div>
+			</div>
+		</section>
+		<section>
+			<div class="container-fluid">
+				<div class="row justify-content-center">
+					<div class="col-md-12 col-lg-10">
+						<div class="get rounded mb-3 bg-white p-3 mx-0 my-4"	id="site1">	
+							<h1>Site 1</h1>
+							<div class="row">
+
+								<img class="image-fluid" src="" alt="image">
+
+								<div class="col-lg-4">
+									<h4>Available Dates</h4>
+									<div>Site 1 is available from: <br>
+										<b><span id="site1date1"> {{ site.data.site.siteone.dateam}} / {{ site.data.site.siteone.datead}} / {{ site.data.site.siteone.dateay}} </span></b><br>    to   <b><span id="site1date2" > {{ site.data.site.siteone.datebm}} / {{ site.data.site.siteone.datebd}} / {{ site.data.site.siteone.dateby}} </span></b>
+									</div>
+								</div>
+
+								<div class="col-lg-4">	
+									<h4>Description</h4>
+									<div> {{site.data.site.siteone.about}} . This is the description</div>
+								</div>
+							</div>
+						</div>
+						<div class="get rounded mb-3 bg-white p-3" id="site2">	
+							<h1>Site 2</h1>
+							<p>Site 1 is available from: <br>
+							<span id="site2date1">{{ site.data.site.site-two }}</span> to <span id="site2date2" >{{ site.data.site.site-two }}</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</body>
+
+	<script>
+		showDates = function() {
+			console.log(document.getElementById('calendar').value);}
+
+		searchIt = function(search1, search2) {	
+			for ( var i=1; i < 3; i++) {
+				theNumber = i.toString();
+				date1 = 'site' + theNumber + 'date' + '1';
+				date1 = document.getElementById(date1).textContent;
+
+				date2 = 'site' + theNumber + 'date' + '2';
+				date2 = document.getElementById(date2).textContent;
+
+				if ( search1 >= date1 && date2 >= search2 ) {
+					console.log('site ' + theNumber + ' matched');
+				} else {
+					console.log('no match with ' + 'site' + theNumber);
+					nowId = 'site' + theNumber;
+					//console.log('nowId is ' + nowId);
+					//document.getElementById(nowId).style.visibility = 'hidden';
+					document.getElementById(nowId).style.display = "none";
+					//doneId = '#' + nowId;
+					//$(doneId).collapse();
+				}
+			}	
+		}	
+
+reset = function () {
+	document.querySelector('.get').style.display = "block";
+}
+	</script>
+</html>
+
