@@ -2,7 +2,7 @@ open: true
 lots:
   1-site-one:
     about: 'Description of Site 1, Dimensions, things to take note of, etc.'
-    date-first: 2019-12-20T19:28:14.159Z
+    date-first: 2019-12-19T19:28:14.159Z
     date-last: 2019-12-20T19:28:14.208Z
     display: true
     image: /assets/uploads/rvMap_1.jpg
@@ -17,28 +17,34 @@ lots:
     date-first: 2019-12-20T21:03:18.412Z
     date-last: 2019-12-20T21:03:18.469Z
     display: false
+    image: /assets/uploads/rvmap_3.jpg
   4-site-four:
     about: 'Description of Site 4, Dimensions, things to take note of, etc.'
     date-first: 2019-12-20T21:03:18.513Z
     date-last: 2019-12-20T21:03:18.564Z
     display: true
+    image: /assets/uploads/rvmap_4.jpg
   6-site-six:
     about: 'Description of Site 6, Dimensions, things to take note of, etc.'
     date-first: 2019-12-20T21:03:18.607Z
     date-last: 2019-12-20T21:03:18.642Z
     display: true
+    image: /assets/uploads/rvmap_6.jpg
   7-site-seven:
     about: 'Description of Site 7, Dimensions, things to take note of, etc.'
     date-first: 2019-12-20T21:03:18.678Z
     date-last: 2019-12-20T21:03:18.712Z
     display: true
+    image: /assets/uploads/rvmap_7.jpg
   8-site-eight:
     about: 'Description of Site 8, Dimensions, things to take note of, etc.'
     date-first: 2019-12-20T21:03:18.756Z
     date-last: 2019-12-20T21:03:18.799Z
     display: true
+    image: /assets/uploads/rvmap_8.jpg
   site-five:
     about: 'Description of Site 5, Dimensions, things to take note of, etc.'
     date-first: 2019-12-20T18:54:12.088Z
     date-last: 2019-12-20T18:54:12.116Z
     display: true
+    image: /assets/uploads/rvmap_5.jpg
