@@ -27,6 +27,6 @@ collections:
          - label: "Site 1"
            name: "site one" 
            fields:
-                {label: "about", name: "description", widget: "string"}
-                {label: "Earliest Month", name: "date-first-month", widget: "date"}
+              - {label: "about", name: "description", widget: "string"}
+              - {label: "Earliest Month", name: "date-first-month", widget: "date"}
    
