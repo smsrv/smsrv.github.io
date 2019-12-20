@@ -1,12 +1,12 @@
-open: false
+open: true
 lots:
   site-eight:
-    about: Description
+    about: Site8
     date-first: 2019-12-20T18:54:12.265Z
     date-last: 2019-12-20T18:54:12.290Z
     display: true
   site-five:
-    about: Description
+    about: SIte5
     date-first: 2019-12-20T18:54:12.088Z
     date-last: 2019-12-20T18:54:12.116Z
     display: true
@@ -14,9 +14,9 @@ lots:
     about: Description Site 4
     date-first: 2019-12-09T18:54:12.024Z
     date-last: 2019-12-19T18:54:12.055Z
-    display: true
+    display: false
   site-one:
-    about: Site one description
+    about: Site1 descrptn
     date-first: 2019-12-01T18:54:11.825Z
     date-last: 2019-12-07T18:54:11.863Z
     display: true
