@@ -197,11 +197,12 @@ searchIt = function() {
 		date2 = ifSiteExists(date2id);
 		date2New = sitesDateMash(date2);
 		//console.log('date2id is ' + date2id + ' and date2 is ' + date2 + 'and date2New is ' + date2New);
+		console.log('date1id: ' + date1id + ' date1New is ' + date1New + 'and date2New is ' + date2New);
 
 		if ( search1 >= date1New && date2New >= search2 ) {
-			//console.log(' search1 ' + search1 + '>=' + date1New + ' && ' + date2New + ' >= ' + search2 + ' : site ' + theNumber + ' matched');
-		} else {
-			//console.log(' search1 ' + search1 + '>=' + date1New + ' && ' + date2New + ' >= ' + search2 + ' : site ' + theNumber + ' not matched');
+			console.log(' search1 ' + search1 + '>=' + date1New + ' && ' + date2New + ' >= ' + search2 + ' : site ' + theNumber + ' matched');
+		} else if (date2New == 'ork' | date2New == 'por' ) {
+			console.log(' search1 ' + search1 + '>=' + date1New + ' && ' + date2New + ' >= ' + search2 + ' : site ' + theNumber + ' "pork" not matched');
 			nowId = 'site' + theNumber;
 			console.log('nowId is ' + nowId + ' and will be display none');
 				//console.log('nowId is ' + nowId);
@@ -209,7 +210,9 @@ searchIt = function() {
 				document.getElementById(nowId).style.display = "none";
 				//doneId = '#' + nowId;
 				//$(doneId).collapse();
-			}
+		} else {
+			continue;
+		}
 	}	
 }	
 
