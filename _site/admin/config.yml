@@ -24,8 +24,9 @@ collections:
         - {
            label: "Sites",
            name: 'lots',
+           widget: 'object',
            fields:
-             - label: "Site 1"
+             - label: "Site 1",
                name: "site one" 
                fields:
                  - {label: "description", name: "about", widget: "string"}
