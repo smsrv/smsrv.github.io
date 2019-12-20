@@ -26,22 +26,23 @@ collections:
           widget: 'object'
           fields:
              - label: "Site 1"
-               name: "site-one" 
+               name: "1-site-one" 
                widget: 'object'
                fields:
                  - {label: "Earliest Date", name: "date-first", widget: "datetime"}
                  - {label: "Latest Date", name: "date-last", widget: "datetime"}
                  - {label: "description", name: "about", widget: "string"}
                  - {label: "Display this Site?", name: "display", widget: "boolean"}
+                 - {default: "Site 1", name: "textname", widget: "hidden"}
                  - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
              - label: "Site 2"
-               name: "site-two" 
+               name: "2-site-two" 
                widget: 'object'
                fields:
                  - {label: "Earliest Date", name: "date-first", widget: "datetime"}
                  - {label: "Latest Date", name: "date-last", widget: "datetime"}
                  - {label: "description", name: "about", widget: "string"}
-                 - {label: "Display this Site?", name: "display", widget: "boolean"}
+                 - {label: "Name", default: "Site 2", name: "textname", widget: "hidden"}
              - label: "Site 3"
                name: "site-three" 
                widget: 'object'
@@ -49,7 +50,7 @@ collections:
                  - {label: "Earliest Date", name: "date-first", widget: "datetime"}
                  - {label: "Latest Date", name: "date-last", widget: "datetime"}
                  - {label: "description", name: "about", widget: "string"}
-                 - {label: "Display this Site?", name: "display", widget: "boolean"}
+                 - {label: "Name", default: "Site 2", name: "textname", widget: "hidden"}
              - label: "Site 4"
                name: "site-four" 
                widget: 'object'
@@ -57,7 +58,7 @@ collections:
                  - {label: "Earliest Date", name: "date-first", widget: "datetime"}
                  - {label: "Latest Date", name: "date-last", widget: "datetime"}
                  - {label: "description", name: "about", widget: "string"}
-                 - {label: "Display this Site?", name: "display", widget: "boolean"}
+                 - {label: "Name", default: "Site 2", name: "textname", widget: "hidden"}
              - label: "Site 5"
                name: "site-five" 
                widget: 'object'
@@ -65,7 +66,7 @@ collections:
                  - {label: "Earliest Date", name: "date-first", widget: "datetime"}
                  - {label: "Latest Date", name: "date-last", widget: "datetime"}
                  - {label: "description", name: "about", widget: "string"}
-                 - {label: "Display this Site?", name: "display", widget: "boolean"}
+                 - {label: "Name", default: "Site 2", name: "textname", widget: "hidden"}
              - label: "Site 6"
                name: "site-six" 
                widget: 'object'
@@ -73,7 +74,7 @@ collections:
                  - {label: "Earliest Date", name: "date-first", widget: "datetime"}
                  - {label: "Latest Date", name: "date-last", widget: "datetime"}
                  - {label: "description", name: "about", widget: "string"}
-                 - {label: "Display this Site?", name: "display", widget: "boolean"}
+                 - {label: "Name", default: "Site 2", name: "textname", widget: "hidden"}
              - label: "Site 7"
                name: "site-seven" 
                widget: 'object'
@@ -81,7 +82,7 @@ collections:
                  - {label: "Earliest Date", name: "date-first", widget: "datetime"}
                  - {label: "Latest Date", name: "date-last", widget: "datetime"}
                  - {label: "description", name: "about", widget: "string"}
-                 - {label: "Display this Site?", name: "display", widget: "boolean"}
+                 - {label: "Name", default: "Site 2", name: "textname", widget: "hidden"}
              - label: "Site 8"
                name: "site-eight" 
                widget: 'object'
@@ -89,4 +90,8 @@ collections:
                  - {label: "Earliest Date", name: "date-first", widget: "datetime"}
                  - {label: "Latest Date", name: "date-last", widget: "datetime"}
                  - {label: "description", name: "about", widget: "string"}
-                 - {label: "Display this Site?", name: "display", widget: "boolean"}
+                 - {label: "Name", default: "Site 2", name: "textname", widget: "hidden"}
+                 - {label: "Latest Date", name: "date-last", widget: "datetime"}
+                 - {label: "description", name: "about", widget: "string"}
+                 - {label: "Name", default: "Site 2", name: "textname", widget: "hidden"}
+            
