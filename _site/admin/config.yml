@@ -33,7 +33,6 @@ collections:
                  - {label: "Latest Date", name: "date-last", widget: "datetime"}
                  - {label: "description", name: "about", widget: "string"}
                  - {label: "Display this Site?", name: "display", widget: "boolean"}
-                 - {default: "Site 1", name: "textname", widget: "hidden"}
                  - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
              - label: "Site 2"
                name: "site-two" 
@@ -43,8 +42,6 @@ collections:
                  - {label: "Latest Date", name: "date-last", widget: "datetime"}
                  - {label: "description", name: "about", widget: "string"}
                  - {label: "Display this Site?", name: "display", widget: "boolean"}
-                 - {default: "Site 1", name: "textname", widget: "hidden"}
-                 - {label: "Name", default: "Site 2", name: "textname", widget: "hidden"}
              - label: "Site 3"
                name: "site-three" 
                widget: 'object'
@@ -53,8 +50,6 @@ collections:
                  - {label: "Latest Date", name: "date-last", widget: "datetime"}
                  - {label: "description", name: "about", widget: "string"}
                  - {label: "Display this Site?", name: "display", widget: "boolean"}
-                 - {default: "Site 1", name: "textname", widget: "hidden"}
-                 - {label: "Name", default: "Site 2", name: "textname", widget: "hidden"}
              - label: "Site 4"
                name: "site-four" 
                widget: 'object'
@@ -63,8 +58,6 @@ collections:
                  - {label: "Latest Date", name: "date-last", widget: "datetime"}
                  - {label: "description", name: "about", widget: "string"}
                  - {label: "Display this Site?", name: "display", widget: "boolean"}
-                 - {default: "Site 1", name: "textname", widget: "hidden"}
-                 - {label: "Name", default: "Site 2", name: "textname", widget: "hidden"}
              - label: "Site 5"
                name: "site-five" 
                widget: 'object'
@@ -73,8 +66,6 @@ collections:
                  - {label: "Latest Date", name: "date-last", widget: "datetime"}
                  - {label: "description", name: "about", widget: "string"}
                  - {label: "Display this Site?", name: "display", widget: "boolean"}
-                 - {default: "Site 1", name: "textname", widget: "hidden"}
-                 - {label: "Name", default: "Site 2", name: "textname", widget: "hidden"}
              - label: "Site 6"
                name: "site-six" 
                widget: 'object'
@@ -83,8 +74,6 @@ collections:
                  - {label: "Latest Date", name: "date-last", widget: "datetime"}
                  - {label: "description", name: "about", widget: "string"}
                  - {label: "Display this Site?", name: "display", widget: "boolean"}
-                 - {default: "Site 1", name: "textname", widget: "hidden"}
-                 - {label: "Name", default: "Site 2", name: "textname", widget: "hidden"}
              - label: "Site 7"
                name: "site-seven" 
                widget: 'object'
@@ -93,8 +82,6 @@ collections:
                  - {label: "Latest Date", name: "date-last", widget: "datetime"}
                  - {label: "description", name: "about", widget: "string"}
                  - {label: "Display this Site?", name: "display", widget: "boolean"}
-                 - {default: "Site 1", name: "textname", widget: "hidden"}
-                 - {label: "Name", default: "Site 2", name: "textname", widget: "hidden"}
              - label: "Site 8"
                name: "site-eight" 
                widget: 'object'
@@ -103,5 +90,3 @@ collections:
                  - {label: "Latest Date", name: "date-last", widget: "datetime"}
                  - {label: "description", name: "about", widget: "string"}
                  - {label: "Display this Site?", name: "display", widget: "boolean"}
-                 - {default: "Site 1", name: "textname", widget: "hidden"}
-                 - {label: "Name", default: "Site 2", name: "textname", widget: "hidden"}
