@@ -26,7 +26,7 @@ collections:
           widget: 'object'
           fields:
              - label: "Site 1"
-               name: "site one" 
+               name: "site-one" 
                widget: 'object'
                fields:
                  - {label: "Earliest Date", name: "date-first", widget: "datetime"}
@@ -36,11 +36,58 @@ collections:
                  - {default: "Site 1", name: "textname", widget: "hidden"}
                  - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
              - label: "Site 2"
-               name: "site two" 
+               name: "site-two" 
                widget: 'object'
                fields:
                  - {label: "Earliest Date", name: "date-first", widget: "datetime"}
                  - {label: "Latest Date", name: "date-last", widget: "datetime"}
                  - {label: "description", name: "about", widget: "string"}
                  - {label: "Name", default: "Site 2", name: "textname", widget: "hidden"}
-            
+             - label: "Site 3"
+               name: "site-three" 
+               widget: 'object'
+               fields:
+                 - {label: "Earliest Date", name: "date-first", widget: "datetime"}
+                 - {label: "Latest Date", name: "date-last", widget: "datetime"}
+                 - {label: "description", name: "about", widget: "string"}
+                 - {label: "Name", default: "Site 2", name: "textname", widget: "hidden"}
+             - label: "Site 4"
+               name: "site-four" 
+               widget: 'object'
+               fields:
+                 - {label: "Earliest Date", name: "date-first", widget: "datetime"}
+                 - {label: "Latest Date", name: "date-last", widget: "datetime"}
+                 - {label: "description", name: "about", widget: "string"}
+                 - {label: "Name", default: "Site 2", name: "textname", widget: "hidden"}
+             - label: "Site 5"
+               name: "site-five" 
+               widget: 'object'
+               fields:
+                 - {label: "Earliest Date", name: "date-first", widget: "datetime"}
+                 - {label: "Latest Date", name: "date-last", widget: "datetime"}
+                 - {label: "description", name: "about", widget: "string"}
+                 - {label: "Name", default: "Site 2", name: "textname", widget: "hidden"}
+             - label: "Site 6"
+               name: "site-six" 
+               widget: 'object'
+               fields:
+                 - {label: "Earliest Date", name: "date-first", widget: "datetime"}
+                 - {label: "Latest Date", name: "date-last", widget: "datetime"}
+                 - {label: "description", name: "about", widget: "string"}
+                 - {label: "Name", default: "Site 2", name: "textname", widget: "hidden"}
+             - label: "Site 7"
+               name: "site-seven" 
+               widget: 'object'
+               fields:
+                 - {label: "Earliest Date", name: "date-first", widget: "datetime"}
+                 - {label: "Latest Date", name: "date-last", widget: "datetime"}
+                 - {label: "description", name: "about", widget: "string"}
+                 - {label: "Name", default: "Site 2", name: "textname", widget: "hidden"}
+             - label: "Site 8"
+               name: "site-eight" 
+               widget: 'object'
+               fields:
+                 - {label: "Earliest Date", name: "date-first", widget: "datetime"}
+                 - {label: "Latest Date", name: "date-last", widget: "datetime"}
+                 - {label: "description", name: "about", widget: "string"}
+                 - {label: "Name", default: "Site 2", name: "textname", widget: "hidden"}
