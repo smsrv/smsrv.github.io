@@ -1,4 +1,4 @@
-open: "yes"
+open: true
 lots:
   site-one:
     name: "Site 1"
