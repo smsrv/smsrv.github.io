@@ -107,7 +107,12 @@
 						</div>
 					</div>
 					 -->
-
+					 {{ site.data.site.open}}
+	{% if site.data.site.open == false %}
+	<div class="col-lg-8 text-center">
+		<h1>No Sites are currently Available.<br> Please check back again soon.</h1>
+	</div>
+	{% elsif site.data.site.open == true %}
 		{% for entry in site.data.site.lots %}
 			{% if entry[1].display ==  true %}
 					<!-- lot Card -->
@@ -116,7 +121,7 @@
 							<h1>Site {{ forloop.index}}.</h1>
 							<div class="row">
 
-								<img class="image-fluid" style="max-height: 200px" src="{{  entry[1].image}}" alt="image"/>
+								<img class="image-fluid mx-3 border border-dark rounded" style="max-height: 200px" src="{{  entry[1].image}}" alt="image"/>
 								<div class="col-lg-4">
 									<h4>Available Dates</h4>
 									<div>{{entry[1].name}} is available from: <br>
@@ -135,7 +140,7 @@
 					<!-- lot Card -->
 			{% endif %}
 		{% endfor %}
-
+	{% endif %}
 				</div>
 			</div>
 		</section>
