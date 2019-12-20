@@ -1,83 +1,10 @@
 open: true
 lots:
-  site-one:
-    name: "Site 1"
-    about: "this is the description for site one"
-    number: "1"
-    date-first-month: "10"
-    date-first-day: "15"
-    date-first-year: "2019"
-    date-last-month: 12
-    date-last-day: 15
-    date-last-year: 2019 
-  site-two:
-    name: "Site 2"
-    about: "this is the description for site two"
-    number: "2"
-    date-first-month: "10"
-    date-first-day: "12"
-    date-first-year: "2019"
-    date-last-month: 12
-    date-last-day: 10
-    date-last-year: 2019 
-  site-three:
-    name: "Site 3"
-    about: "this is the description for site three"
-    number: "3"
-    date-first-month: "11"
-    date-first-day: "02"
-    date-first-year: "2019"
-    date-last-month: 12
-    date-last-day: 01
-    date-last-year: 2019 
-  site-four:
-    name: "Site 4"
-    about: "this is the description for site four"
-    number: "4"
-    date-first-month: "12"
-    date-first-day: "19"
-    date-first-year: "2019"
-    date-last-month: 12
-    date-last-day: 10
-    date-last-year: 2019 
-  site-five:
-    name: "Site 5"
-    about: "this is the description for site five"
-    number: "5"
-    date-first-month: "10"
-    date-first-day: "12"
-    date-first-year: "2019"
-    date-last-month: 12
-    date-last-day: 10
-    date-last-year: 2019 
-  site-six:
-    name: "Site 6"
-    about: "this is the description for site six"
-    number: "6"
-    date-first-month: "10"
-    date-first-day: "12"
-    date-first-year: "2019"
-    date-last-month: 12
-    date-last-day: 10
-    date-last-year: 2019 
-  site-seven:
-    name: "Site 7"
-    about: "this is the description for site seven"
-    number: "7"
-    date-first-month: "11"
-    date-first-day: "11"
-    date-first-year: "2019"
-    date-last-month: 12
-    date-last-day: 01
-    date-last-year: 2019 
-  site-eigtht:
-    name: "Site 8"
-    about: "this is the description for site eight"
-    number: "8"
-    date-first-month: "12"
-    date-first-day: "10"
-    date-first-year: "2019"
-    date-last-month: 12
-    date-last-day: 20
-    date-last-year: 2019 
-
+  site one:
+    about: Check out our favorite hookup site!
+    date-first-day: 2019-12-20T16:45:17.867Z
+    date-first-month: 2019-12-18T16:41:17.845Z
+    date-first-year: 2019-12-20T16:45:17.891Z
+    date-last-day: 2019-12-20T16:45:17.942Z
+    date-last-month: 2019-12-20T16:45:17.924Z
+    date-last-year: 2019-12-20T16:45:17.960Z
