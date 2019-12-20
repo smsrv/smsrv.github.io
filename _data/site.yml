@@ -14,7 +14,7 @@ lots:
     about: Description Site 4
     date-first: 2019-12-09T18:54:12.024Z
     date-last: 2019-12-19T18:54:12.055Z
-    display: true
+    display: false
   site-one:
     about: Site1 descrptn
     date-first: 2019-12-01T18:54:11.825Z
