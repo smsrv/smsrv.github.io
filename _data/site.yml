@@ -10,7 +10,8 @@ lots:
     about: site2
     date-first: 2019-12-20T19:28:14.256Z
     date-last: 2019-12-20T19:28:14.292Z
-    display: false
+    display: true
+    image: /assets/uploads/rvmap_2.jpg
   3-site-three:
     about: Site 3
     date-first: 2019-12-20T21:03:18.412Z
