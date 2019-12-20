@@ -2,9 +2,5 @@ open: true
 lots:
   site one:
     about: Check out our favorite hookup site!
-    date-first-day: 2019-12-20T16:45:17.867Z
-    date-first-month: 2019-12-18T16:41:17.845Z
-    date-first-year: 2019-12-20T16:45:17.891Z
-    date-last-day: 2019-12-20T16:45:17.942Z
-    date-last-month: 2019-12-20T16:45:17.924Z
-    date-last-year: 2019-12-20T16:45:17.960Z
+    date-first: 2019-11-29T17:00:26.240Z
+    date-last: 2019-12-30T17:00:00.000Z
