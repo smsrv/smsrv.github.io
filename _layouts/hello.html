@@ -173,7 +173,7 @@ ifSiteExists = function(x) {
 		date1 = document.getElementById(x).textContent;
 		return date1;
 	} else {
-		date1 = 'pork';
+		date1 = 'DNE';
 		return date1;
 	}
 }
@@ -186,21 +186,24 @@ searchIt = function() {
 	var searchDates = calendarDateMash();
 	search1 = searchDates[0];
 	search2 = searchDates[1];
-	for ( var i=1; i < 9; i++) {
+	for ( var i=2; i < 4; i++) {
 		theNumber = i.toString();
 		date1id = 'site' + theNumber + 'date' + '1';
-		date1 = ifSiteExists(date1id);
-		date1New = sitesDateMash(date1);
-		//console.log('date1id is ' + date1id + ' and date1 is ' + date1 + 'and date1New is ' + date1New);
-
 		date2id = 'site' + theNumber + 'date' + '2';
+		console.log('date1id is ' + date1id + ' and date2id is ' + date2id);
+		date1 = ifSiteExists(date1id);
 		date2 = ifSiteExists(date2id);
+		console.log('date1 is ' + date1 + ' and date2 is ' + date2);
+		if (date1 == "DNE" | date2 =="DNE") {
+			console.log('date1 or date2 DNE!!!');
+		}
+		date1New = sitesDateMash(date1);
 		date2New = sitesDateMash(date2);
 		//console.log('date2id is ' + date2id + ' and date2 is ' + date2 + 'and date2New is ' + date2New);
 		console.log('date1id: ' + date1id + ' date1New is ' + date1New + 'and date2New is ' + date2New);
 
 		if ( search1 >= date1New && date2New >= search2 ) {
-			console.log(' search1 ' + search1 + '>=' + date1New + ' && ' + date2New + ' >= ' + search2 + ' : site ' + theNumber + ' matched');
+			console.log(' search1 ' + search1 + ' >= ' + date1New + ' && ' + date2New + ' >= ' + search2 + ' : site ' + theNumber + ' matched');
 		} else if (date2New == 'ork' | date2New == 'por' ) {
 			console.log(' search1 ' + search1 + '>=' + date1New + ' && ' + date2New + ' >= ' + search2 + ' : site ' + theNumber + ' "pork" not matched');
 			nowId = 'site' + theNumber;
@@ -211,6 +214,7 @@ searchIt = function() {
 				//doneId = '#' + nowId;
 				//$(doneId).collapse();
 		} else {
+			console.log('nothing but "continue"');
 			continue;
 		}
 	}	
