@@ -42,23 +42,23 @@ collections:
                  - {label: "Earliest Date", name: "date-first", widget: "datetime"}
                  - {label: "Latest Date", name: "date-last", widget: "datetime"}
                  - {label: "description", name: "about", widget: "string"}
-                 - {label: "Name", default: "Site 2", name: "textname", widget: "hidden"}
+                 - {label: "Display this Site?", name: "display", widget: "boolean"}
              - label: "Site 3"
-               name: "site-three" 
+               name: "3-site-three" 
                widget: 'object'
                fields:
                  - {label: "Earliest Date", name: "date-first", widget: "datetime"}
                  - {label: "Latest Date", name: "date-last", widget: "datetime"}
                  - {label: "description", name: "about", widget: "string"}
-                 - {label: "Name", default: "Site 2", name: "textname", widget: "hidden"}
+                 - {label: "Display this Site?", name: "display", widget: "boolean"}
              - label: "Site 4"
-               name: "site-four" 
+               name: "4-site-four" 
                widget: 'object'
                fields:
                  - {label: "Earliest Date", name: "date-first", widget: "datetime"}
                  - {label: "Latest Date", name: "date-last", widget: "datetime"}
                  - {label: "description", name: "about", widget: "string"}
-                 - {label: "Name", default: "Site 2", name: "textname", widget: "hidden"}
+                 - {label: "Display this Site?", name: "display", widget: "boolean"}
              - label: "Site 5"
                name: "site-five" 
                widget: 'object'
@@ -66,32 +66,28 @@ collections:
                  - {label: "Earliest Date", name: "date-first", widget: "datetime"}
                  - {label: "Latest Date", name: "date-last", widget: "datetime"}
                  - {label: "description", name: "about", widget: "string"}
-                 - {label: "Name", default: "Site 2", name: "textname", widget: "hidden"}
+                 - {label: "Display this Site?", name: "display", widget: "boolean"}
              - label: "Site 6"
-               name: "site-six" 
+               name: "6-site-six" 
                widget: 'object'
                fields:
                  - {label: "Earliest Date", name: "date-first", widget: "datetime"}
                  - {label: "Latest Date", name: "date-last", widget: "datetime"}
                  - {label: "description", name: "about", widget: "string"}
-                 - {label: "Name", default: "Site 2", name: "textname", widget: "hidden"}
+                 - {label: "Display this Site?", name: "display", widget: "boolean"}
              - label: "Site 7"
-               name: "site-seven" 
+               name: "7-site-seven" 
                widget: 'object'
                fields:
                  - {label: "Earliest Date", name: "date-first", widget: "datetime"}
                  - {label: "Latest Date", name: "date-last", widget: "datetime"}
                  - {label: "description", name: "about", widget: "string"}
-                 - {label: "Name", default: "Site 2", name: "textname", widget: "hidden"}
+                 - {label: "Display this Site?", name: "display", widget: "boolean"}
              - label: "Site 8"
-               name: "site-eight" 
+               name: "8-site-eight" 
                widget: 'object'
                fields:
                  - {label: "Earliest Date", name: "date-first", widget: "datetime"}
                  - {label: "Latest Date", name: "date-last", widget: "datetime"}
                  - {label: "description", name: "about", widget: "string"}
-                 - {label: "Name", default: "Site 2", name: "textname", widget: "hidden"}
-                 - {label: "Latest Date", name: "date-last", widget: "datetime"}
-                 - {label: "description", name: "about", widget: "string"}
-                 - {label: "Name", default: "Site 2", name: "textname", widget: "hidden"}
-            
+                 - {label: "Display this Site?", name: "display", widget: "boolean"}
