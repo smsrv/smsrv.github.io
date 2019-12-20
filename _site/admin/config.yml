@@ -29,8 +29,16 @@ collections:
                name: "site one" 
                widget: 'object'
                fields:
-                 - {label: "Name", default: "Site 1", name: "name", widget: "hidden"}
-                 - {label: "description", name: "about", widget: "string"}
                  - {label: "Earliest Date", name: "date-first", widget: "datetime"}
                  - {label: "Latest Date", name: "date-last", widget: "datetime"}
+                 - {label: "description", name: "about", widget: "string"}
+                 - {label: "Name", default: "Site 1", name: "textname", widget: "hidden"}
+             - label: "Site 2"
+               name: "site two" 
+               widget: 'object'
+               fields:
+                 - {label: "Earliest Date", name: "date-first", widget: "datetime"}
+                 - {label: "Latest Date", name: "date-last", widget: "datetime"}
+                 - {label: "description", name: "about", widget: "string"}
+                 - {label: "Name", default: "Site 2", name: "textname", widget: "hidden"}
             
