@@ -373,17 +373,24 @@ searchIt = function() {
 			//console.log(' search1 ' + search1 + '>=' + date1New + ' && ' + date2New + ' >= ' + search2 + ' : site ' + theNumber + ' not matched');
 			nowId = 'site' + theNumber;
 			console.log('nowId is ' + nowId + ' and will be display none');
-			//console.log('nowId is ' + nowId);
-			//document.getElementById(nowId).style.visibility = 'hidden';
-			document.getElementById(nowId).style.display = "none";
-			//doneId = '#' + nowId;
-			//$(doneId).collapse();
-		}
+				//console.log('nowId is ' + nowId);
+				//document.getElementById(nowId).style.visibility = 'hidden';
+				document.getElementById(nowId).style.display = "none";
+				//doneId = '#' + nowId;
+				//$(doneId).collapse();
+			}
 	}	
 }	
 
 reset = function () {
-	document.querySelector('.get').style.display = "block";
+ //	var total = document.querySelectorAll('.get');
+ //	for (var x = 0; x < total.length; x++);
+ //		total[x].style.display = "block";
+ //	//document.querySelectorAll('.get').style.display = "block";
+	Array.from(document.querySelectorAll(".get"))
+	    .forEach(function(val) {
+				        val.style.display = 'block';
+			});
 }
 	</script>
 	<!-- Bootstrap core JavaScript -->
@@ -394,7 +401,7 @@ reset = function () {
 	<script src="/vendor/jquery-easing/jquery.easing.min.js"></script>
 
 	<!-- Custom scripts for this template 	<script src="/js/creative.min.js"></script>
--->
+	-->
 
 
 </html>
