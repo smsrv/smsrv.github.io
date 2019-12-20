@@ -21,13 +21,13 @@ collections:
  #    file: "site.yml" 
  #    fields:
         - {label: 'Open or Not', name: 'open', widget: 'boolean'}
-        - label: "Sites"
-          name: 'lots'
-          widget: 'list'
-          fields:
-            - label: "Site 1"
-              name: "site one" 
-              fields:
-                - {label: "description", name: "about", widget: "string"}
-                - {label: "Earliest Month", name: "date-first-month", widget: "date"}
-        
+        - {
+           label: "Sites"
+           name: 'lots'
+           fields:
+             - label: "Site 1"
+               name: "site one" 
+               fields:
+                 - {label: "description", name: "about", widget: "string"}
+                 - {label: "Earliest Month", name: "date-first-month", widget: "date"}
+           } 
