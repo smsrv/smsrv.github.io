@@ -116,8 +116,7 @@
 							<h1>Site {{ forloop.index}}.</h1>
 							<div class="row">
 
-								<img class="image-fluid" src="" alt="image">
-
+								<img class="image-fluid" style="max-height: 200px" src="{{  entry[1].image}}" alt="image"/>
 								<div class="col-lg-4">
 									<h4>Available Dates</h4>
 									<div>{{entry[1].name}} is available from: <br>
