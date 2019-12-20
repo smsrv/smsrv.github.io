@@ -32,7 +32,7 @@ collections:
                  - {label: "Earliest Date", name: "date-first", widget: "datetime"}
                  - {label: "Latest Date", name: "date-last", widget: "datetime"}
                  - {label: "description", name: "about", widget: "string"}
-                 - {label: "Name", default: "Site 1", name: "textname", widget: "hidden"}
+                 - {default: "Site 1", name: "textname", widget: "hidden"}
                  - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
              - label: "Site 2"
                name: "site two" 
