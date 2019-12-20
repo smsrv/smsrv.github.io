@@ -35,6 +35,7 @@ collections:
                  - {label: "Display this Site?", name: "display", widget: "boolean"}
                  - {default: "Site 1", name: "textname", widget: "hidden"}
                  - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+                 - {label: "Image", name: "image", widget: "file", default: "/assets/uploads/rvMap_1.jpg"}
              - label: "Site 2"
                name: "2-site-two" 
                widget: 'object'
