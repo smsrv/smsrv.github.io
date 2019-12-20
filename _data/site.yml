@@ -9,27 +9,34 @@ lots:
     about: site2
     date-first: 2019-12-20T19:28:14.256Z
     date-last: 2019-12-20T19:28:14.292Z
-  site-eight:
-    about: Site8
-    date-first: 2019-12-20T18:54:12.265Z
-    date-last: 2019-12-20T18:54:12.290Z
+    display: false
+  3-site-three:
+    about: Site 3
+    date-first: 2019-12-20T21:03:18.412Z
+    date-last: 2019-12-20T21:03:18.469Z
+    display: false
+  4-site-four:
+    about: Desc Site 4
+    date-first: 2019-12-20T21:03:18.513Z
+    date-last: 2019-12-20T21:03:18.564Z
+    display: true
+  6-site-six:
+    about: 'Site 6 '
+    date-first: 2019-12-20T21:03:18.607Z
+    date-last: 2019-12-20T21:03:18.642Z
+    display: true
+  7-site-seven:
+    about: Site 7
+    date-first: 2019-12-20T21:03:18.678Z
+    date-last: 2019-12-20T21:03:18.712Z
+    display: true
+  8-site-eight:
+    about: SIte 8
+    date-first: 2019-12-20T21:03:18.756Z
+    date-last: 2019-12-20T21:03:18.799Z
+    display: true
   site-five:
     about: SIte5
     date-first: 2019-12-20T18:54:12.088Z
     date-last: 2019-12-20T18:54:12.116Z
-  site-four:
-    about: Description Site 4
-    date-first: 2019-12-09T18:54:12.024Z
-    date-last: 2019-12-19T18:54:12.055Z
-  site-seven:
-    about: Site7
-    date-first: 2019-12-20T18:54:12.194Z
-    date-last: 2019-12-20T18:54:12.225Z
-  site-six:
-    about: Site 6
-    date-first: 2019-12-20T18:54:12.144Z
-    date-last: 2019-12-20T18:54:12.170Z
-  site-three:
-    about: Site 3 description
-    date-first: 2019-12-08T18:54:11.970Z
-    date-last: 2019-12-14T18:54:11.997Z
+    display: true
