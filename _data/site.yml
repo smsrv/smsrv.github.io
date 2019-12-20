@@ -16,7 +16,7 @@ lots:
     about: 'Description of Site 3, Dimensions, things to take note of, etc.'
     date-first: 2019-12-20T21:03:18.412Z
     date-last: 2019-12-25T21:03:18.469Z
-    display: true
+    display: false
     image: /assets/uploads/rvmap_3.jpg
   4-site-four:
     about: 'Description of Site 4, Dimensions, things to take note of, etc.'
