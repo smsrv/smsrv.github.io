@@ -8,14 +8,25 @@ media_library:
   name: 'media_library'
 
 collections:
-  name: 'sites'
-  label: 'Sites'
-  file: "_data/site.yml"
-      fields:
-        - label: "Open or Not"
-          name: "open"
-          widget: "boolean"
-        - label: "Sites"
+ #  name: 'sites'
+ #  label: 'Sites'
+ #  files:
+ #    - label: "Site data"
+ #      name: "sites"
+ #      file: "_data/site.yml"
+ #      fields:
+  - name: 'sites'
+    label: 'Sites'
+    folder: "_data/"
+    file: "site.yml" 
+    fields:
+      - label: 'Open or Not'
+        name: 'open'
+        widget: 'boolean'
+      - label: "Sites"
+        name: 'lots'
+        fields: # The fields for each document, usually in front matter
+          - {label: "about", name: "description", widget: "string"}
           name: "lots"
           fields:
             - label: "Site 1"
@@ -23,5 +34,5 @@ collections:
               fields:
                 - label: "Description"
                   name: "about"
-                  widget: "string"
+                   widget: "string"
    
