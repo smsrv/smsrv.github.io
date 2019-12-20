@@ -26,13 +26,9 @@ collections:
       - label: "Sites"
         name: 'lots'
         fields: # The fields for each document, usually in front matter
-          - {label: "about", name: "description", widget: "string"}
-          name: "lots"
+          label: "Site 1"
+          name: "site-one" 
           fields:
-            - label: "Site 1"
-              name: "site-one"
-              fields:
-                - label: "Description"
-                  name: "about"
-                   widget: "string"
+            - {label: "about", name: "description", widget: "string"}
+            - {label: "Earliest Month", name: "date-first-month", widget: "date"}
    
