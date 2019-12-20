@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 open: "yes"
 lots:
   site-one:
@@ -81,3 +82,14 @@ lots:
           date-last-day: 20
           date-last-year: 2019 
 
+=======
+open: 'yes'
+site1:
+  1date1: '6'
+  1date2: '30'
+  about: this is site one
+site2:
+  2date1: '10'
+  2date2: 16
+  about: this is site two
+>>>>>>> 100d18b74a14b2b68b239f0a60aa068f034c5461
