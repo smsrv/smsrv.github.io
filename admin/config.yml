@@ -15,17 +15,12 @@ collections:
        name: "pages"
        file: "_data/pages.yml"
        fields:
- #  - name: 'sites'
- #    label: 'Sites'
- #    folder: "_data/"
- #    file: "site.yml" 
- #    fields:
-        - label: "About"
-          name: 'about'
+        - label: "pages"
+          name: 'Pages'
           widget: 'object'
           fields:
-             - label: "Title"
-               name: "1-site-one" 
+             - label: "about page"
+               name: "About Page" 
                widget: 'object'
                fields:
                  - {label: "Earliest Date", name: "date-first", widget: "datetime"}
