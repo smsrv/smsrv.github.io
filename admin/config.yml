@@ -35,8 +35,8 @@ collections:
                widget: 'object'
                fields:
                  - {label: "About Page", name: "about", widget: ""}
-             - label: "faq-page"
-               name: "FAQ's Page" 
+             - label: "FAQ's Page"
+               name: "faq-page" 
                widget: 'object'
                fields:
                  - {label: "FAQ's", name: "faq", widget: ""}
