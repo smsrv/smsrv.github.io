@@ -19,77 +19,23 @@ collections:
           name: 'Pages'
           widget: 'object'
           fields:
-             - label: "about page"
-               name: "About Page" 
+             - label: "Homeowner Page"
+               name: "homeowner-page" 
                widget: 'object'
                fields:
-                 - {label: "Earliest Date", name: "date-first", widget: "datetime"}
-                 - {label: "Latest Date", name: "date-last", widget: "datetime"}
-                 - {label: "description", name: "about", widget: "string"}
+                 - {label: "Article-Title", name: "article-title", widget: "string"}
+                 - {label: "Article-Text", name: "article-text", widget: "string"}
+                 - {label: "Description", name: "description", widget: "string"}
                  - {label: "Display this Site?", name: "display", widget: "boolean"}
                  - {default: "Site 1", name: "textname", widget: "hidden"}
                  - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
                  - {label: "Image", name: "image", widget: "file", default: "/assets/uploads/rvMap_1.jpg", required: false}
-             - label: "Site 2"
-               name: "2-site-two" 
+             - label: ""
+               name: "About Page" 
                widget: 'object'
                fields:
-                 - {label: "Earliest Date", name: "date-first", widget: "datetime"}
-                 - {label: "Latest Date", name: "date-last", widget: "datetime"}
-                 - {label: "description", name: "about", widget: "string"}
-                 - {label: "Display this Site?", name: "display", widget: "boolean"}
-                 - {label: "Image", name: "image", widget: "file", default: "", required: false}
-             - label: "Site 3"
+             - label: "FAQ's"
                name: "3-site-three" 
                widget: 'object'
                fields:
-                 - {label: "Earliest Date", name: "date-first", widget: "datetime"}
-                 - {label: "Latest Date", name: "date-last", widget: "datetime"}
-                 - {label: "description", name: "about", widget: "string"}
-                 - {label: "Display this Site?", name: "display", widget: "boolean"}
-                 - {label: "Image", name: "image", widget: "file", default: "", required: false}
-             - label: "Site 4"
-               name: "4-site-four" 
-               widget: 'object'
-               fields:
-                 - {label: "Earliest Date", name: "date-first", widget: "datetime"}
-                 - {label: "Latest Date", name: "date-last", widget: "datetime"}
-                 - {label: "description", name: "about", widget: "string"}
-                 - {label: "Display this Site?", name: "display", widget: "boolean"}
-                 - {label: "Image", name: "image", widget: "file", default: "", required: false}
-             - label: "Site 5"
-               name: "site-five" 
-               widget: 'object'
-               fields:
-                 - {label: "Earliest Date", name: "date-first", widget: "datetime"}
-                 - {label: "Latest Date", name: "date-last", widget: "datetime"}
-                 - {label: "description", name: "about", widget: "string"}
-                 - {label: "Display this Site?", name: "display", widget: "boolean"}
-                 - {label: "Image", name: "image", widget: "file", default: "", required: false}
-             - label: "Site 6"
-               name: "6-site-six" 
-               widget: 'object'
-               fields:
-                 - {label: "Earliest Date", name: "date-first", widget: "datetime"}
-                 - {label: "Latest Date", name: "date-last", widget: "datetime"}
-                 - {label: "description", name: "about", widget: "string"}
-                 - {label: "Display this Site?", name: "display", widget: "boolean"}
-                 - {label: "Image", name: "image", widget: "file", default: "", required: false}
-             - label: "Site 7"
-               name: "7-site-seven" 
-               widget: 'object'
-               fields:
-                 - {label: "Earliest Date", name: "date-first", widget: "datetime"}
-                 - {label: "Latest Date", name: "date-last", widget: "datetime"}
-                 - {label: "description", name: "about", widget: "string"}
-                 - {label: "Display this Site?", name: "display", widget: "boolean"}
-                 - {label: "Image", name: "image", widget: "file", default: "", required: false}
-             - label: "Site 8"
-               name: "8-site-eight" 
-               widget: 'object'
-               fields:
-                 - {label: "Earliest Date", name: "date-first", widget: "datetime"}
-                 - {label: "Latest Date", name: "date-last", widget: "datetime"}
-                 - {label: "description", name: "about", widget: "string"}
-                 - {label: "Display this Site?", name: "display", widget: "boolean"}
-                 - {label: "Image", name: "image", widget: "file", default: "", required: false}
+               
