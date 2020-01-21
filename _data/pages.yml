@@ -1,11 +1,11 @@
-Pages:
+pages:
   FAQ's Page:
-    faq: Demo Title
+    faq: faq page
   about-page:
-    about: Demo Title
+    about: about page
   homeowner-page:
-    article-text: texttexttext
-    article-title: titletitletitle
-    description: descdescdescdescdescdescdescdescdescdescdescdescdesc
-    description-title: descdescdescdescdescdescdesc
+    article-text: ttttttext
+    article-title: ttttitle
+    description: dddddescrtext
+    description-title: ddddescr
     image: /assets/uploads/pic3.jpg
