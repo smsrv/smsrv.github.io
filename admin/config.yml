@@ -27,7 +27,6 @@ collections:
                  - {label: "Article-Text", name: "article-text", widget: "text"}
                  - {label: "Description Title", name: "description-title", widget: "string"}
                  - {label: "Description", name: "description", widget: "text"}
-                 - {default: "Site 1", name: "textname", widget: "hidden"}
                  - {label: "List", name: "list", widget: "list", field: {label: "label1", name: "name1", widget: "string"}}
                  - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
                  - {label: "Image", name: "image", widget: "file", default: "/assets/uploads/pic3.jpg", required: false}
