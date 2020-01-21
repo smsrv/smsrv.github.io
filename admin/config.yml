@@ -15,8 +15,8 @@ collections:
        name: "pages"
        file: "_data/pages.yml"
        fields:
-        - label: "pages"
-          name: 'Pages'
+        - label: "Pages"
+          name: 'pages'
           widget: 'object'
           fields:
              - label: "Homeowner Page"
