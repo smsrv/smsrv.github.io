@@ -21,9 +21,10 @@ pages:
       Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque
       adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi.
     article-title: Homeowners
-    description: |-
-      - one
-      -two
-      -three
+    description: We offer the following to our valued homeowners
     description-title: What we offer
     image: /assets/uploads/pic3.jpg
+    list:
+      - one
+      - two
+      - three
