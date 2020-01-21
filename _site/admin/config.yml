@@ -8,24 +8,23 @@ media_library:
   name: 'media_library'
 
 collections:
- - name: 'sites'
-   label: 'Sites'
+ - name: 'pages'
+   label: 'Pages'
    files:
-     - label: "Site data"
-       name: "sites"
-       file: "_data/site.yml"
+     - label: "Page data"
+       name: "pages"
+       file: "_data/pages.yml"
        fields:
  #  - name: 'sites'
  #    label: 'Sites'
  #    folder: "_data/"
  #    file: "site.yml" 
  #    fields:
-        - {label: 'Open or Not', name: 'open', widget: 'boolean'}
-        - label: "Sites"
-          name: 'lots'
+        - label: "About"
+          name: 'about'
           widget: 'object'
           fields:
-             - label: "Site 1"
+             - label: "Title"
                name: "1-site-one" 
                widget: 'object'
                fields:

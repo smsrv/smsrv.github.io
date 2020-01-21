@@ -59,7 +59,7 @@ searchIt = function() {
 				console.log('step 2: search1 ' + search1 + ' >= ' + date1New + ' && ' + date2New + ' >= ' + search2 + ' : site ' + theNumber + ' matched');
 				linkDate1 = CDM()[0];
 				linkDate2 = CDM()[1];
-				datesLinkGen(theNumber, 'link' + theNumber, linkDate1, linkDate2);
+				datesLinkGen('link' + theNumber, linkDate1, linkDate2);
 
 			} else {
 				nowId = 'site' + theNumber;
@@ -110,9 +110,9 @@ CDM = function() {
 	//console.log(dateMash()[0] + ' and ' + dateMash()[1]);
 	return [date1, date2];
 }
-datesLinkGen = function(theNumber, givenId, searched1, searched2) {
+datesLinkGen = function(givenId, searched1, searched2) {
 	//get existing element ids
- 	document.getElementById(givenId).innerHTML = '<a href="https://docs.google.com/forms/d/e/1FAIpQLSfTO7eJVeZv4_eDyy3RoxpyZknNEolZ8TWiYrRjLMSZhexKTQ/viewform?usp=pp_url&entry.1048484071=Site ' + theNumber + '&entry.235344755=' + searched1 + '&entry.2092486078=' + searched2 + '">Register This Site and These Dates</a>';
+ 	document.getElementById(givenId).innerHTML = '<a href="https://docs.google.com/forms/d/e/1FAIpQLSfTO7eJVeZv4_eDyy3RoxpyZknNEolZ8TWiYrRjLMSZhexKTQ/viewform?usp=pp_url&entry.1048484071=' + givenId + '&entry.235344755=' + searched1 + '&entry.2092486078=' + searched2 + '">Register This Site and These Dates</a>';
 }
 	//
  //	var searched1 = CDM()[0];
