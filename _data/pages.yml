@@ -1,8 +1,8 @@
 pages:
-  FAQ's Page:
-    faq: faq page
   about-page:
     about: about page
+  faq-page:
+    faq: faq page
   homeowner-page:
     article-text: ttttttext
     article-title: ttttitle
