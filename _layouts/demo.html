@@ -107,8 +107,15 @@ text-shadow: black 2px 2px;
 				</div>
 				<div class="col text-muted">
 					<h4 style="color:#ff6600">{{site.data.pages.pages.homeowner-page.description-title }}</h4>
-					<ul>
 						{{site.data.pages.pages.homeowner-page.description}}
+						
+						{% for entry in site.data.pages.pages.homeowner-page.list %}
+						<ul>
+							<li>{{entry}}</li>
+						</ul>
+						{% endfor %}
+						<!--
+					<ul>
 							<li>Nationwide coverage (some states excluded)</li>
 							<li>Engineered design of FHA/HUD foundation certifications on manufactured homes;</li>
 							<li>Engineering drawings for basement/foundation repair for building permits;</li>
@@ -120,9 +127,7 @@ text-shadow: black 2px 2px;
 							<li>Since we specialize in this area on a national basis, we have an expertise rarely found in local engineering resources;</li>
 							<li>This is not a side business for us. Residential engineering is our ONLY business.</li>
 						</ul>
-
-						We look forward to meeting your needs...FAST!
-
+						--!>
 </div>
 
 			</div>
